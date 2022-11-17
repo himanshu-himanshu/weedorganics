@@ -27,3 +27,7 @@ body{
     background-size: 50% 0.2em;
     background-position: 0 90%;
 }
+
+.banner {
+    @apply bg-hero bg-center bg-cover
+}
