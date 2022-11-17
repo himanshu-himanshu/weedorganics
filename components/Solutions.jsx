@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import image from "../assets/image1.svg";
-import image2 from "../assets/image2.svg";
+import image from "../public/assets/image1.svg";
+import image2 from "../public/assets/image2.svg";
 
 const Solutions = () => {
   return (
