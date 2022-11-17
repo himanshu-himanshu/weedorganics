@@ -2,10 +2,7 @@ import React from "react";
 
 const MobileMenu = ({ handleOpenMenu }) => {
   return (
-    <div
-      className="lg:hidden flex items-center justify-start w-1/3 hover:cursor-pointer"
-      onClick={() => handleOpenMenu()}
-    >
+    <div className="hover:cursor-pointer" onClick={() => handleOpenMenu()}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

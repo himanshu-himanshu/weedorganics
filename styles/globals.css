@@ -1,14 +1,18 @@
 @import url('https://fonts.cdnfonts.com/css/borui');
 @import url('https://fonts.cdnfonts.com/css/gruppo');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-    overflow: hidden;
+.nav-link {
+    @apply text-secondary hover:cursor-pointer hover:text-pink-500 font-normal p-2
 }
 
-.nav-link {
-    @apply text-primary hover:cursor-pointer hover:text-pink-500 font-normal
+.banner {
+    background-image: url('../assets/wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
 }

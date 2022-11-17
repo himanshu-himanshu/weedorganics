@@ -10,6 +10,8 @@ module.exports = {
       fontFamily: {
         Borui: ["borui", "serif"],
         Gruppo: ["gruppo", "serif"],
+        Raleway: ["Raleway", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
         primary: "#113034",

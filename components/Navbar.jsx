@@ -6,7 +6,7 @@ import MobileMenu from "./MobileMenu";
 import OpenMenu from "./OpenMenu";
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
 
   const handleOpenMenu = () => {
     setOpenMenu(true);
@@ -16,14 +16,16 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-row px-8 md:px-16 py-4 text-primary">
+    <div className="w-full flex flex-row px-8 md:px-16 py-4 text-secondary h-[10vh] fixed top-0 z-40">
       <div className="flex items-center justify-start w-1/2">
         <Logo />
       </div>
       <div className="hidden lg:flex items-center justify-end w-1/2">
         <Links />
       </div>
-      <MobileMenu handleOpenMenu={handleOpenMenu} />
+      <div className="lg:hidden flex items-center justify-end w-1/2">
+        <MobileMenu handleOpenMenu={handleOpenMenu} />
+      </div>
       {openMenu && <OpenMenu handleCloseMenu={handleCloseMenu} />}
     </div>
   );
