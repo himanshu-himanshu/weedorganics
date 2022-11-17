@@ -18,7 +18,7 @@ module.exports = {
         secondary: "#fffef9",
       },
       backgroundImage: {
-        hero: 'url("../public/image1.jpg")',
+        hero: 'url("../public/wallpaper.jpg")',
       },
     },
   },

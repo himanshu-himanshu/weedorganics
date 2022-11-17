@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
+//import banner from "../public/wallpaper.jpg";
+
 const Banner = () => {
   return (
-    <div className="relative w-full h-[100vh] z-10 font-Montserrat overflow-hidden banner">
+    <div className="relative w-full h-[100vh] z-10 font-Montserrat overflow-hidden bg-[url('../public/wallpaper.jpg')] bg-cover bg-center">
       <div className="absolute w-full h-full top-0 left-0 -z-20 bg-gray-900/80"></div>
       <div className="container max-w-6xl mx-auto flex flex-col justify-center h-full px-4 md:px-8 space-y-4 ">
         <p className="text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold capitalize">
