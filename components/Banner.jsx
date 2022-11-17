@@ -8,7 +8,7 @@ const Banner = () => {
       <div class="container max-w-6xl mx-auto flex flex-col justify-center h-full px-4 md:px-8 space-y-4 ">
         <p class="text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold capitalize">
           <span className="text-pink-700"> Connect customers</span> with organic
-          cannabis
+          cannabiz
         </p>
         <p class="text-gray-300 text-md sm:text-lg lg:text-xl max-w-3xl py-4 mb-8 tracking-wide md:tracking-wider">
           Drive in-store and online sales by engaging with customers looking for
