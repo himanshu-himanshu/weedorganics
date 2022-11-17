@@ -6,7 +6,7 @@ import image2 from "../public/image2.svg";
 const Solutions = () => {
   return (
     <div className="w-full h-full bg-gray-100 py-12">
-      <div class="container max-w-6xl mx-auto px-4 md:px-8 lg:px-0">
+      <div className="container max-w-6xl mx-auto px-4 md:px-8 lg:px-0">
         <div className="w-full flex justify-center items-center py-6 md:py-8 lg:py-12">
           <h1 className="text-5xl lg:text-6xl font-Gruppo font-bold text-primary text-center underline--magical">
             What We Provide

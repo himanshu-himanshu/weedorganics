@@ -21,7 +21,7 @@ const GrowBusiness = () => {
 
   return (
     <div className="w-full h-full bg-gray-200 py-12">
-      <div class="container max-w-6xl mx-auto px-8 lg:px-0">
+      <div className="container max-w-6xl mx-auto px-8 lg:px-0">
         <div className="w-full flex flex-col justify-center items-center py-6 md:py-8 lg:py-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-Gruppo font-bold text-primary text-center underline--magical">
             Grow Your Business
