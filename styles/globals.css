@@ -7,6 +7,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    overflow-x: hidden;
+}
+
 .nav-link {
     @apply text-secondary hover:cursor-pointer hover:text-pink-500 font-normal p-2
 }

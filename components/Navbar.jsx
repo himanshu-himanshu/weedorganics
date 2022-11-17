@@ -27,16 +27,18 @@ const Navbar = () => {
 
   const handleOpenMenu = () => {
     setOpenMenu(true);
+    document.body.classList.add("fixed");
   };
   const handleCloseMenu = () => {
     setOpenMenu(false);
+    document.body.classList.remove("fixed");
   };
 
   return (
     <div
       className={`w-full flex flex-row px-6 md:px-12 lg:px-16 py-4 text-secondary h-[10vh] fixed top-0 z-40 bg-${
         show ? "black" : "transparent"
-      } opacity-90 duration-200`}
+      } opacity-100 duration-200`}
     >
       <div className="flex items-center justify-start w-1/2">
         <Logo />
