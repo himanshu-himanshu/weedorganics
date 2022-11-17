@@ -31,8 +31,8 @@ const OpenMenu = ({ handleCloseMenu }) => {
           <div className="w-full py-12">
             <ul className="flex flex-col justify-center items-center space-y-12 font-Gruppo">
               <MobileNavLink title="Home" />
-              <MobileNavLink title="Trending" />
-              <MobileNavLink title="All Products" />
+              <MobileNavLink title="Solutions" />
+              <MobileNavLink title="Help Center" />
             </ul>
           </div>
         </div>
