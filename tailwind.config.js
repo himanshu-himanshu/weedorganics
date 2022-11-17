@@ -17,6 +17,9 @@ module.exports = {
         primary: "#113034",
         secondary: "#fffef9",
       },
+      backgroundImage: {
+        hero: 'url("../assets/wallpaper.jpg")',
+      },
     },
   },
   plugins: [],
