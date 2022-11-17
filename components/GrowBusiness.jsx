@@ -1,10 +1,10 @@
 import React from "react";
 
 import BusinessCard from "./BusinessCard";
-import reachImage from "../public/assets/target.png";
-import engageImage from "../public/assets/user.png";
-import connectImage from "../public/assets/networking.png";
-import convertImage from "../public/assets/bag.png";
+import reachImage from "../public/target.png";
+import engageImage from "../public/user.png";
+import connectImage from "../public/networking.png";
+import convertImage from "../public/bag.png";
 
 const GrowBusiness = () => {
   let reach =
