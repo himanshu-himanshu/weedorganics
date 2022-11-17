@@ -7,6 +7,23 @@ import OpenMenu from "./OpenMenu";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const [show, setShow] = useState(false);
+
+  const transitionBar = () => {
+    if (window.scrollY > 10) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  };
+
+  //window.addEventListener("scroll", transitionBar);
+
+  useEffect(() => {
+    window.addEventListener("scroll", transitionBar);
+    console.log("hello");
+    return () => window.removeEventListener("scroll", transitionBar);
+  }, []);
 
   const handleOpenMenu = () => {
     setOpenMenu(true);
@@ -16,7 +33,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full flex flex-row px-8 md:px-16 py-4 text-secondary h-[10vh] fixed top-0 z-40">
+    <div
+      className={`w-full flex flex-row px-8 md:px-16 py-4 text-secondary h-[10vh] fixed top-0 z-40 bg-${
+        show ? "black" : "transparent"
+      } opacity-90 duration-200`}
+    >
       <div className="flex items-center justify-start w-1/2">
         <Logo />
       </div>

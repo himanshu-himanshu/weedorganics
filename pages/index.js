@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Solutions from "../components/Solutions";
+import GrowBusiness from "../components/GrowBusiness";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Solutions />
+      <GrowBusiness />
     </div>
   );
 }
