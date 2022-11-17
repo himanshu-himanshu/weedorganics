@@ -20,3 +20,10 @@ body{
     background-position: center;
     background-size: cover;
 }
+
+.underline--magical {
+    background-image: linear-gradient(120deg, #84fab0 0%, #eeeeee 100%);
+    background-repeat: no-repeat;
+    background-size: 50% 0.2em;
+    background-position: 0 90%;
+}

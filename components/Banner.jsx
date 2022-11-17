@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div class="relative w-full h-[100vh] z-10 banner font-Montserrat">
-      <div className="absolute w-full h-full top-0 left-0 -z-20 bg-black/80"></div>
+    <div class="relative w-full h-[100vh] z-10 banner font-Montserrat overflow-hidden">
+      <div className="absolute w-full h-full top-0 left-0 -z-20 bg-gray-900/80"></div>
       <div class="container max-w-6xl mx-auto flex flex-col justify-center h-full px-4 md:px-8 space-y-4 ">
         <p class="text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold capitalize">
           <span className="text-pink-700"> Connect customers</span> with organic

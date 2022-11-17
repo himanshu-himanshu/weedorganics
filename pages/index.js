@@ -1,23 +1,12 @@
 import Head from "next/head";
-import Image from "next/image";
-import React, { useState, useEffect } from "react";
 
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Solutions from "../components/Solutions";
 import GrowBusiness from "../components/GrowBusiness";
-import OpenMenu from "../components/OpenMenu";
+import Footer from "../components/Footer";
 
 export default function Home() {
-  const [openMenu, setOpenMenu] = useState(false);
-
-  // const handleOpenMenu = () => {
-  //   setOpenMenu(true);
-  // };
-  // const handleCloseMenu = () => {
-  //   setOpenMenu(false);
-  // };
-
   return (
     <div className="bg-secondary">
       <Head>
@@ -26,14 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      {/* <Navbar
-        handleOpenMenu={handleOpenMenu}
-        handleCloseMenu={handleCloseMenu}
-      /> */}
-      {/* {openMenu && <OpenMenu handleCloseMenu={handleCloseMenu} />} */}
       <Banner />
       <Solutions />
       <GrowBusiness />
+      <Footer />
     </div>
   );
 }

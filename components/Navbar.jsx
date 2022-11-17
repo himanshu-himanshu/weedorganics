@@ -8,6 +8,7 @@ import OpenMenu from "./OpenMenu";
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const [show, setShow] = useState(false);
+  const background = show ? "bg-gray-800" : "transparent";
 
   const transitionBar = () => {
     if (window.scrollY > 10) {
@@ -45,9 +46,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full flex flex-row px-6 md:px-12 lg:px-16 py-4 text-secondary h-[10vh] fixed top-0 z-40 bg-${
-        show ? "black" : "transparent"
-      } opacity-100 duration-200`}
+      className={`w-full flex flex-row px-6 md:px-12 lg:px-16 py-4 text-secondary h-[10vh] fixed top-0 z-40 ${background} opacity-100 duration-200`}
     >
       <div className="flex items-center justify-start w-1/3">
         <Logo />

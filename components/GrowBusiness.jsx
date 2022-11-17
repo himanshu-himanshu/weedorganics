@@ -22,10 +22,12 @@ const GrowBusiness = () => {
   return (
     <div className="w-full h-full bg-gray-200 py-12">
       <div class="container max-w-6xl mx-auto px-8 lg:px-0">
-        <div className="w-full flex justify-center items-center py-6 md:py-8 lg:py-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-Gruppo font-bold text-primary text-center">
+        <div className="w-full flex flex-col justify-center items-center py-6 md:py-8 lg:py-12">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-Gruppo font-bold text-primary text-center underline--magical">
             Grow Your Business
-            <br /> With WeedOrganic
+          </h1>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-Gruppo font-bold text-primary text-center">
+            With WeedOrganic
           </h1>
         </div>
         <div className="w-full py-8 px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
