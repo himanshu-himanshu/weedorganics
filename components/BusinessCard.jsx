@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const BusinessCard = ({ image, text }) => {
   return (
-    <div className="border border-gray-600 py-8 md:py-12 px-4 flex flex-col items-center justify-center space-y-8">
+    <div className="shadow-xl py-8 md:py-12 px-4 flex flex-col items-center justify-center space-y-8 hover:cursor-pointer hover:-translate-y-1 duration-200">
       <div className="flex flex-row space-x-4 justify-center items-center h-1/2">
         <Image src={image} alt="Customer Image" className="w-[100px]" />
       </div>

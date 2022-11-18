@@ -6,9 +6,11 @@ import {
   SlSocialYoutube,
 } from "react-icons/sl";
 
+import Link from "./Link";
+
 const Footer = () => {
   return (
-    <footer className="w-full h-full bg-gray-100 pt-12">
+    <footer className="w-full h-full bg-white pt-12">
       <div className="px-4 md:px-8 lg:px-0">
         <div className="flex flex-col space-y-8 lg:space-y-0 lg:flex-row justify-center items-center">
           <div className="flex flex-col justify-center items-center space-y-6 h-full w-full lg:w-1/2 font-Raleway py-8">
@@ -16,21 +18,11 @@ const Footer = () => {
               Quick Links
             </p>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 text-gray-500 tracking-wide text-center">
-              <a href="" className="hover:text-pink-500 font-light">
-                Home
-              </a>
-              <a href="" className="hover:text-pink-500 font-light">
-                Brand Solution
-              </a>
-              <a href="" className="hover:text-pink-500 font-light">
-                Retail Solution
-              </a>
-              <a href="" className="hover:text-pink-500 font-light">
-                Help Center
-              </a>
-              <a href="" className="hover:text-pink-500 font-light">
-                Contact Us
-              </a>
+              <Link title="Home" />
+              <Link title="Brand Solution" />
+              <Link title="Retail Solution" />
+              <Link title="Help Center" />
+              <Link title="Contact Us" />
             </div>
           </div>
           <div className="w-full lg:w-1/2">
@@ -66,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-full flex flex-col justify-center items-center space-y-8 py-12 bg-gray-100 border-t">
+        <div className="w-full flex flex-col justify-center items-center space-y-8 py-12 bg-white border-t">
           <div>
             <img
               alt=""

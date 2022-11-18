@@ -1,6 +1,3 @@
-import React from "react";
-import Image from "next/image";
-
 //import banner from "../public/wallpaper.jpg";
 
 const Banner = () => {
@@ -21,12 +18,12 @@ const Banner = () => {
         </p>
         <div className="flex items-center space-x-6 md:space-x-8 tracking-wider text-sm md:text-md">
           <a href="#projects">
-            <button className="px-6 md:px-8 py-4 border border-secondary text-secondary hover:bg-green-600 hover:border-green-600 hover:text-white hover:shadow-lg hover:-translate-y-1 duration-200 font-semibold">
+            <button className="banner-link hover:bg-green-600 hover:border-green-600">
               Get Started
             </button>
           </a>
           <a href="#projects">
-            <button className="px-6 md:px-8 py-4 border border-secondary text-secondary hover:bg-pink-500 hover:border-pink-500 hover:text-white hover:shadow-lg hover:-translate-y-1 duration-200 font-semibold">
+            <button className="banner-link hover:bg-pink-500 hover:border-pink-500">
               Contact Us
             </button>
           </a>
