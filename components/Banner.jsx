@@ -18,12 +18,12 @@ const Banner = () => {
         </p>
         <div className="flex items-center space-x-6 md:space-x-8 tracking-wider text-sm md:text-md">
           <a href="#projects">
-            <button className="banner-link hover:bg-green-600 hover:border-green-600">
+            <button className="banner-link border-pink-600 bg-pink-600 hover:bg-pink-700 hover:border-pink-700">
               Get Started
             </button>
           </a>
           <a href="#projects">
-            <button className="banner-link hover:bg-pink-500 hover:border-pink-500">
+            <button className="banner-link  hover:bg-green-600 hover:border-green-600">
               Contact Us
             </button>
           </a>

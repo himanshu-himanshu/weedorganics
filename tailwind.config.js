@@ -8,10 +8,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Borui: ["borui", "serif"],
-        Gruppo: ["gruppo", "serif"],
         Raleway: ["Raleway", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
+        Alata: ["Alata", "sans-serif"],
       },
       colors: {
         primary: "#113034",

@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2">
-            <div className="w-full flex flex-row px-6 py-6 justify-center items-center space-x-12">
+            <div className="w-full flex flex-row px-6 py-6 justify-center items-center space-x-2 md:space-x-6 lg:space-x-8 xl:space-x-12">
               <div className="p-2">
                 <SlSocialFacebook className="w-6 h-6 text-gray-800" />
               </div>
