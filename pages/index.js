@@ -6,6 +6,7 @@ import Solutions from "../components/solution/Solutions";
 import GrowBusiness from "../components/GrowBusiness";
 import Footer from "../components/footer/Footer";
 import ContactUs from "../components/contact/ContactUs";
+import Testimonials from "../components/testimonial/Testimonials";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Solutions />
       <GrowBusiness />
       <ContactUs />
+      <Testimonials />
       <Footer />
     </div>
   );
