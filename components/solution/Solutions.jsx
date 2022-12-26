@@ -21,7 +21,11 @@ const Solutions = () => {
           </h2>
         </div>
         <div className="solution-div flex-col lg:flex-row">
-          <Solution title={solutionTitleOne} des={solutionDesOne} />
+          <Solution
+            title={solutionTitleOne}
+            des={solutionDesOne}
+            showKnowMore={true}
+          />
           <div className="solution-inner-div lg:justify-end">
             <Image src={image} alt="Customer Image" className="w-[500px]" />
           </div>
@@ -31,7 +35,11 @@ const Solutions = () => {
           <div className="solution-inner-div lg:justify-start">
             <Image src={image2} alt="Customer Image" className="w-[500px]" />
           </div>
-          <Solution title={solutionTitleSecond} des={solutionDesSecond} />
+          <Solution
+            title={solutionTitleSecond}
+            des={solutionDesSecond}
+            showKnowMore={true}
+          />
         </div>
       </div>
     </div>

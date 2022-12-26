@@ -1,5 +1,3 @@
-import React from "react";
-
 const Links = () => {
   return (
     <div className="flex flex-row space-x-4 lg:space-x-8 uppercase tracking-wider items-center text-lg font-Raleway font-thin">
