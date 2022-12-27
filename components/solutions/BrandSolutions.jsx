@@ -1,10 +1,18 @@
 import React from "react";
 import Image from "next/image";
 
-import Solution from "../solution/Solution";
+import Solution from "../homepage/solution/Solution";
 import solution1 from "../../public/solution_1.png";
 import solution2 from "../../public/solution_2.png";
 import solution3 from "../../public/solution_3.png";
+import {
+  brandSolutionTitle1,
+  brandSolutionTitle2,
+  brandSolutionTitle3,
+  brandSolutionDes1,
+  brandSolutionDes2,
+  brandSolutionDes3,
+} from "../../constants/constant";
 
 const Solutions = () => {
   return (
@@ -15,30 +23,33 @@ const Solutions = () => {
             Join today & grow your business with WeedOrganic
           </h2>
         </div>
+
         <div className="solution-div flex-col lg:flex-row">
           <Solution
-            title="Brand and Product Listing"
-            des="List your brand with WeedOrganic to amplify your brand and increase brand awareness. Grow your brand’s reach with followers, likes, product reviews and more. With your brand subscription, list unlimited products at no extra cost. Showcase your products so that customers can make informed purchase decisions and discover the organic cannabis product for them. Send web and in app notifications to your followers of new products when they become available."
+            title={brandSolutionTitle1}
+            des={brandSolutionDes1}
             showKnowMore={false}
           />
           <div className="solution-inner-div lg:justify-end">
             <Image src={solution1} alt="Customer Image" className="w-[500px]" />
           </div>
         </div>
+
         <div className="solution-div flex-col-reverse lg:flex-row">
           <div className="solution-inner-div lg:justify-start">
             <Image src={solution2} alt="Customer Image" className="w-[500px]" />
           </div>
           <Solution
-            title="Feature Brands and Products"
-            des="Put your organic cannabis brands and products in the spotlight. With our featured brands, featured products and featured strains placements on WeedOrganic, reach customers looking to purchase organic cannabis."
+            title={brandSolutionTitle2}
+            des={brandSolutionDes2}
             showKnowMore={false}
           />
         </div>
+
         <div className="solution-div flex-col lg:flex-row">
           <Solution
-            title="Advertising Placement"
-            des="Whether video ad placements in store on our organic menu tv or ad space on our web and mobile apps, WeedOrganic provides custom sponsored ad placements to increase reach even further with customers to grow your business."
+            title={brandSolutionTitle3}
+            des={brandSolutionDes3}
             showKnowMore={false}
           />
           <div className="solution-inner-div lg:justify-end">

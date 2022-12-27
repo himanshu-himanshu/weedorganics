@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
-import image from "../../public/image1.svg";
-import image2 from "../../public/image2.svg";
+import image from "../../../public/image1.svg";
+import image2 from "../../../public/image2.svg";
 import Solution from "./Solution";
 import {
   solutionTitleOne,
   solutionDesOne,
   solutionTitleSecond,
   solutionDesSecond,
-} from "../../constants/constant";
+} from "../../../constants/constant";
 
 const Solutions = () => {
   return (

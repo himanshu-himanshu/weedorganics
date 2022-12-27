@@ -1,11 +1,11 @@
 import React from "react";
 
 import BusinessCard from "./BusinessCard";
-import reachImage from "../public/target.png";
-import engageImage from "../public/user.png";
-import connectImage from "../public/networking.png";
-import convertImage from "../public/bag.png";
-import { reach, engage, connect, convert } from "../constants/constant";
+import reachImage from "../../public/target.png";
+import engageImage from "../../public/user.png";
+import connectImage from "../../public/networking.png";
+import convertImage from "../../public/bag.png";
+import { reach, engage, connect, convert } from "../../constants/constant";
 
 const GrowBusiness = () => {
   return (
