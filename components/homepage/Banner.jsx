@@ -22,11 +22,6 @@ const Banner = () => {
               Get Started
             </button>
           </a>
-          <a href="#projects">
-            <button className="banner-link  hover:bg-green-600 hover:border-green-600">
-              Contact Us
-            </button>
-          </a>
         </div>
       </div>
     </div>

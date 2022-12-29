@@ -6,7 +6,7 @@ import {
   SlSocialYoutube,
 } from "react-icons/sl";
 
-import Link from "./Link";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -18,11 +18,10 @@ const Footer = () => {
               Quick Links
             </p>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 text-gray-500 tracking-wide text-center">
-              <Link title="Home" />
-              <Link title="Brand Solution" />
-              <Link title="Retail Solution" />
-              <Link title="Help Center" />
-              <Link title="Contact Us" />
+              <Link className="hover:text-pink-500 font-light" title="Home" href={"/"}>Home</Link>
+              <Link className="hover:text-pink-500 font-light" title="Retail Solution" href={"/retailSolutions"}>Retail Solutions</Link>
+              <Link className="hover:text-pink-500 font-light" title="Brand Solution" href={"/brandSolutions"}>Brand Solutions</Link>
+              <Link className="hover:text-pink-500 font-light" title="Help Center" href={"/helpCenter"}>Help Center</Link>
             </div>
           </div>
           <div className="w-full lg:w-1/2">
