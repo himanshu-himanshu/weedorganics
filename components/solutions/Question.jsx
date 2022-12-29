@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Question = () => {
   return (
     <div className="w-full h-full bg-secondary py-12 md:py-18 lg:py-20">
@@ -13,9 +15,12 @@ const Question = () => {
             </p>
           </div>
           <div className="w-full lg:w-1/3 flex justify-center">
-            <button className="px-8 lg:px-10 py-4 uppercase font-Montserrat font-extrabold tracking-wider rounded-sm bg-pink-500 text-white duration-200 hover:shadow-xl hover:-translate-y-0.5">
+            <Link
+              href={"/contact"}
+              className="px-8 lg:px-10 py-4 uppercase font-Montserrat font-extrabold tracking-wider rounded-sm bg-pink-500 text-white duration-200 hover:shadow-xl hover:-translate-y-0.5"
+            >
               Contact Us
-            </button>
+            </Link>
           </div>
         </div>
       </div>

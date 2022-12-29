@@ -1,4 +1,4 @@
-//import banner from "../public/wallpaper.jpg";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -17,11 +17,11 @@ const Banner = () => {
           apps.
         </p>
         <div className="flex items-center space-x-6 md:space-x-8 tracking-wider text-sm md:text-md">
-          <a href="#projects">
+          <Link href="/contact">
             <button className="banner-link border-pink-600 bg-pink-600 hover:bg-pink-700 hover:border-pink-700">
               Get Started
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
