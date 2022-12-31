@@ -1,15 +1,31 @@
 import React from "react";
 import Head from "next/head";
+import { Fragment, useState } from "react";
+import {
+  Accordion,
+  AccordionHeader,
+  AccordionBody,
+} from "@material-tailwind/react";
 
 import Navbar from "../components/navbar/Navbar";
 import Banner from "../components/solutions/Banner";
 import Footer from "../components/footer/Footer";
-import Solutions from "../components/solutions/RetailSolutions";
 import Question from "../components/solutions/Question";
 import image from "../public/hc.jpg";
 import GeneralQuestions from "../components/help/GeneralQuestions";
+import FAQ from "../components/help/FAQ";
 
 const helpCenter = () => {
+  const [type, setType] = useState("retail");
+  const handleFAQ = (type) => {
+    if (type == "retail") {
+      setType("retail");
+    }
+    if (type == "brand") {
+      setType("brand");
+    }
+  };
+  console.log(type);
   return (
     <div>
       <Head>
@@ -19,7 +35,8 @@ const helpCenter = () => {
       </Head>
       <Navbar />
       <Banner src={image} title="Need Any Help?" bgType={true} />
-      <GeneralQuestions />
+      <GeneralQuestions handleFAQ={handleFAQ} />
+      <FAQ type={type} />
       <Question />
       <Footer />
     </div>

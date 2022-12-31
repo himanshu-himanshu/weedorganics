@@ -5,6 +5,7 @@ import ContactUs from "../components/contact/ContactUs";
 import Banner from "../components/solutions/Banner";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
+import Testimonials from "../components/testimonial/Testimonials";
 
 const Contact = () => {
   return (
@@ -17,6 +18,7 @@ const Contact = () => {
       <Navbar />
       <Banner src={image} title="Find Out More?" />
       <ContactUs />
+      <Testimonials />
       <Footer />
     </>
   );

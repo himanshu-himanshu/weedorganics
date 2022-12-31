@@ -50,3 +50,126 @@ export let connect =
   "Connect customers to organic cannabis products to help choose the right product for them.";
 export let convert =
   "Convert customers into purchases to drive in store and online sales.";
+
+export const retailFAQ = [
+  {
+    question: "How to sign up and create a business retail account?",
+    answer:
+      "The sign-up link is provided at the footer bottom. Click on Business login link. A pop-up window opens, click on Register.",
+  },
+  {
+    question: "How to log into a business retail account?",
+    answer: "Login link is provided at the footer bottom of website.",
+  },
+  {
+    question: "How to upgrade my business retail account subscription?",
+    answer:
+      " As you login to your dashboard, click on My Subscriptions link located in the vertical menu of your dashboard to upgrade your subscription.",
+  },
+  {
+    question: " How to log into a business retail account?",
+    answer: "Login link is provided at the footer bottom of website.",
+  },
+  {
+    question: "How to log out of a business retail account?",
+    answer:
+      "As you login to your dashboard, click on My Subscriptions link located in the vertical menu of your dashboard to upgrade your subscription.",
+  },
+  {
+    question: "How to reset a business retail account password?",
+    answer:
+      "The reset password link is in the login window. Click on it and follow the prompts.",
+  },
+  {
+    question: "  How to update Store Profile information?",
+    answer:
+      "As you hover on the store image, a pencil icon appears, click on it and you can update your picture.",
+  },
+  {
+    question: "How to Add Store Photos?",
+    answer:
+      "Add Photos link is provided in the vertical menu inside the dashboard.",
+  },
+  {
+    question:
+      "What is the correct image size to upload my s tore photos to the store profile page?",
+    answer: "540px x 387px(Width x Height)",
+  },
+  {
+    question: "How to view Products?",
+    answer:
+      "Products navigation link is provided in the vertical menu in dashboard, when you click on My Store text on Top Right corner.",
+  },
+  {
+    question: "How to view Deals?",
+    answer:
+      "A Deals navigation link is provided in the vertical menu in the dashboard, when click on the My Store text on Top Right corner.",
+  },
+  {
+    question: "How to send push notifications?",
+    answer:
+      "In the dashboard, click on notifications link in vertical menu, it will ask you about products or deals to send notifications.",
+  },
+];
+
+// CHANGE FAQs BELOW----------------------------------------
+export const brandFAQ = [
+  {
+    question: "How to sign up and create a business retail account?",
+    answer:
+      "The sign-up link is provided at the footer bottom. Click on Business login link. A pop-up window opens, click on Register.",
+  },
+  {
+    question: "How to log into a business retail account?",
+    answer: "Login link is provided at the footer bottom of website.",
+  },
+  {
+    question: "How to upgrade my business retail account subscription?",
+    answer:
+      " As you login to your dashboard, click on My Subscriptions link located in the vertical menu of your dashboard to upgrade your subscription.",
+  },
+  {
+    question: " How to log into a business retail account?",
+    answer: "Login link is provided at the footer bottom of website.",
+  },
+  {
+    question: "How to log out of a business retail account?",
+    answer:
+      "As you login to your dashboard, click on My Subscriptions link located in the vertical menu of your dashboard to upgrade your subscription.",
+  },
+  {
+    question: "How to reset a business retail account password?",
+    answer:
+      "The reset password link is in the login window. Click on it and follow the prompts.",
+  },
+  {
+    question: "  How to update Store Profile information?",
+    answer:
+      "As you hover on the store image, a pencil icon appears, click on it and you can update your picture.",
+  },
+  {
+    question: "How to Add Store Photos?",
+    answer:
+      "Add Photos link is provided in the vertical menu inside the dashboard.",
+  },
+  {
+    question:
+      "What is the correct image size to upload my s tore photos to the store profile page?",
+    answer: "540px x 387px(Width x Height)",
+  },
+  {
+    question: "How to view Products?",
+    answer:
+      "Products navigation link is provided in the vertical menu in dashboard, when you click on My Store text on Top Right corner.",
+  },
+  {
+    question: "How to view Deals?",
+    answer:
+      "A Deals navigation link is provided in the vertical menu in the dashboard, when click on the My Store text on Top Right corner.",
+  },
+  {
+    question: "How to send push notifications?",
+    answer:
+      "In the dashboard, click on notifications link in vertical menu, it will ask you about products or deals to send notifications.",
+  },
+];
