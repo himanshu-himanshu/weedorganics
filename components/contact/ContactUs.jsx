@@ -66,6 +66,11 @@ const ContactUs = () => {
   return (
     <div className="w-full h-full bg-gray-100 py-12 md:py-18 lg:py-10">
       <div className="container max-w-6xl mx-auto px-8 lg:px-0">
+        <div className="w-full flex justify-center items-center py-6 md:py-8 lg:py-12">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-Raleway text-primary text-center underline--magical tracking-wide font-bold">
+            Get in Touch
+          </h2>
+        </div>
         <div className="flex flex-col md:flex-row py-12">
           <div className="hidden lg:flex w-full md:w-1/2">
             <Image src={image} alt="Customer Image" className="w-[500px]" />
@@ -196,10 +201,10 @@ const ContactUs = () => {
             >
               Submit &rarr;
             </button>
-          </form >
-        </div >
-      </div >
-    </div >
+          </form>
+        </div>
+      </div>
+    </div>
   );
 };
 

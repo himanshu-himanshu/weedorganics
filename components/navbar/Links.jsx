@@ -12,7 +12,7 @@ const Links = () => {
       <Link href={"/brand_solutions"} className="nav-link">
         Brand Solutions
       </Link>
-      <Link className="nav-link" href={"/helpCenter"}>
+      <Link className="nav-link" href={"/help_center"}>
         Help Center
       </Link>
     </div>
