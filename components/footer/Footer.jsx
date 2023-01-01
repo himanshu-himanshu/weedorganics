@@ -6,7 +6,7 @@ import {
   SlSocialYoutube,
 } from "react-icons/sl";
 
-import Link from "./Link";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -18,54 +18,69 @@ const Footer = () => {
               Quick Links
             </p>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 text-gray-500 tracking-wide text-center">
-              <Link title="Home" />
-              <Link title="Brand Solution" />
-              <Link title="Retail Solution" />
-              <Link title="Help Center" />
-              <Link title="Contact Us" />
+              <Link className="hover:text-pink-500 font-light" title="Home" href={"/"}>Home</Link>
+              <Link className="hover:text-pink-500 font-light" title="Retail Solution" href={"/retailSolutions"}>Retail Solutions</Link>
+              <Link className="hover:text-pink-500 font-light" title="Brand Solution" href={"/brandSolutions"}>Brand Solutions</Link>
+              <Link className="hover:text-pink-500 font-light" title="Help Center" href={"/helpCenter"}>Help Center</Link>
             </div>
           </div>
           <div className="w-full lg:w-1/2">
             <div className="w-full flex flex-row px-6 py-6 justify-center items-center space-x-2 md:space-x-6 lg:space-x-8 xl:space-x-12">
               <div className="p-2">
-                <SlSocialFacebook className="w-6 h-6 text-gray-800" />
+                <a href="https://facebook.com" target="_blank">
+                  <SlSocialFacebook className="w-6 h-6 text-gray-800" />
+                </a>
               </div>
               <div className="p-2">
-                <SlSocialInstagram className="w-6 h-6 text-gray-800" />
+                <a href="https://facebook.com" target="_blank">
+                  <SlSocialInstagram className="w-6 h-6 text-gray-800" />
+                </a>
               </div>
               <div className="p-2">
-                <SlSocialTwitter className="w-6 h-6 text-gray-800" />
+                <a href="https://facebook.com" target="_blank">
+                  <SlSocialTwitter className="w-6 h-6 text-gray-800" />
+                </a>
               </div>
               <div className="p-2">
-                <SlSocialLinkedin className="w-6 h-6 text-gray-800" />
+                <a href="https://facebook.com" target="_blank">
+                  <SlSocialLinkedin className="w-6 h-6 text-gray-800" />
+                </a>
               </div>
               <div className="p-2">
-                <SlSocialYoutube className="w-6 h-6 text-gray-800" />
+                <a href="https://facebook.com" target="_blank">
+                  <SlSocialYoutube className="w-6 h-6 text-gray-800" />
+                </a>
               </div>
             </div>
             <div className="flex flex-row justify-center items-center py-6 space-x-12">
-              <img
-                src="https://www.prima.co/images/app-badge_apple@2x.png"
-                alt=""
-                className="h-8 md:h-8 bg-transparent"
-              />
-              <img
-                src="https://www.prima.co/images/app-badge_google@2x.png"
-                alt=""
-                className="h-8 md:h-8"
-              />
+              <a href="https://apps.apple.com/ca/app/weedorganic-inc/id1576048506" target="_blank" title="Weed Organic at Apple">
+                <img
+                  src="https://www.prima.co/images/app-badge_apple@2x.png"
+                  alt=""
+                  className="h-8 md:h-8 bg-transparent"
+                />
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.store.weedorganic" target="_blank" title="Weed Organic at Google">
+                <img
+                  src="https://www.prima.co/images/app-badge_google@2x.png"
+                  alt=""
+                  className="h-8 md:h-8"
+                />
+              </a>
             </div>
           </div>
         </div>
 
         <div className="w-full flex flex-col justify-center items-center space-y-8 py-12 bg-white border-t">
-          <div>
-            <img
-              alt=""
-              src="https://weedorganic.biz/image/weed-organicbiz-logo.png"
-              className="h-10 md:h-12"
-            />
-          </div>
+          <Link href="/">
+            <div>
+              <img
+                alt=""
+                src="https://weedorganic.biz/image/weed-organicbiz-logo.png"
+                className="h-10 md:h-12"
+              />
+            </div>
+          </Link>
           <p className="text-sm font-light text-gray-700 font-Raleway text-center">
             Copyright © 2021 WeedOrganic INC. “Logo” are registered trademarks
             of WeedOrganic INC. All Rights Reserved. Policy
