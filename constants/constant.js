@@ -112,7 +112,6 @@ export const retailFAQ = [
   },
 ];
 
-// CHANGE FAQs BELOW----------------------------------------
 export const brandFAQ = [
   {
     question: "How to sign up and create a business brand account?",
@@ -121,8 +120,7 @@ export const brandFAQ = [
   },
   {
     question: "How to log into a business brand account?",
-    answer:
-      "Login link is provided at the footer bottom of website.",
+    answer: "Login link is provided at the footer bottom of website.",
   },
   {
     question: "How to upgrade my business brand account subscription?",
@@ -131,13 +129,12 @@ export const brandFAQ = [
   },
   {
     question: "How to log out of a business brand account?",
-    answer:
-      "This option is available in the vertical menu of your dashboard.",
+    answer: "This option is available in the vertical menu of your dashboard.",
   },
   {
-    question:
-      "How to reset a business brand account password?",
-    answer: "The reset password link is in the login window. Click on it and follow the prompts.",
+    question: "How to reset a business brand account password?",
+    answer:
+      "The reset password link is in the login window. Click on it and follow the prompts.",
   },
   {
     question: "How to update Brand Profile information?",
