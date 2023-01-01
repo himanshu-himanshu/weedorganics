@@ -6,10 +6,10 @@ const Links = () => {
       <Link href={"/"} className="nav-link">
         Home
       </Link>
-      <Link href={"/retailSolutions"} className="nav-link">
+      <Link href={"/retail_solutions"} className="nav-link">
         Retail Solutions
       </Link>
-      <Link href={"/brandSolutions"} className="nav-link">
+      <Link href={"/brand_solutions"} className="nav-link">
         Brand Solutions
       </Link>
       <Link className="nav-link" href={"/helpCenter"}>

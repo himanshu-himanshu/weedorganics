@@ -25,7 +25,7 @@ const Solutions = () => {
             title={solutionTitleOne}
             des={solutionDesOne}
             showKnowMore={true}
-            link="/brandSolutions"
+            link="/brand_solutions"
           />
           <div className="solution-inner-div lg:justify-end">
             <Image src={image} alt="Customer Image" className="w-[500px]" />
@@ -40,7 +40,7 @@ const Solutions = () => {
             title={solutionTitleSecond}
             des={solutionDesSecond}
             showKnowMore={true}
-            link="/retailSolutions"
+            link="/retail_solutions"
           />
         </div>
       </div>

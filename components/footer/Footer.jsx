@@ -18,10 +18,34 @@ const Footer = () => {
               Quick Links
             </p>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 text-gray-500 tracking-wide text-center">
-              <Link className="hover:text-pink-500 font-light" title="Home" href={"/"}>Home</Link>
-              <Link className="hover:text-pink-500 font-light" title="Retail Solution" href={"/retailSolutions"}>Retail Solutions</Link>
-              <Link className="hover:text-pink-500 font-light" title="Brand Solution" href={"/brandSolutions"}>Brand Solutions</Link>
-              <Link className="hover:text-pink-500 font-light" title="Help Center" href={"/helpCenter"}>Help Center</Link>
+              <Link
+                className="hover:text-pink-500 font-light"
+                title="Home"
+                href={"/"}
+              >
+                Home
+              </Link>
+              <Link
+                className="hover:text-pink-500 font-light"
+                title="Retail Solution"
+                href={"/retail_solutions"}
+              >
+                Retail Solutions
+              </Link>
+              <Link
+                className="hover:text-pink-500 font-light"
+                title="Brand Solution"
+                href={"/brand_solutions"}
+              >
+                Brand Solutions
+              </Link>
+              <Link
+                className="hover:text-pink-500 font-light"
+                title="Help Center"
+                href={"/help_center"}
+              >
+                Help Center
+              </Link>
             </div>
           </div>
           <div className="w-full lg:w-1/2">
@@ -53,14 +77,22 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-row justify-center items-center py-6 space-x-12">
-              <a href="https://apps.apple.com/ca/app/weedorganic-inc/id1576048506" target="_blank" title="Weed Organic at Apple">
+              <a
+                href="https://apps.apple.com/ca/app/weedorganic-inc/id1576048506"
+                target="_blank"
+                title="Weed Organic at Apple"
+              >
                 <img
                   src="https://www.prima.co/images/app-badge_apple@2x.png"
                   alt=""
                   className="h-8 md:h-8 bg-transparent"
                 />
               </a>
-              <a href="https://play.google.com/store/apps/details?id=com.store.weedorganic" target="_blank" title="Weed Organic at Google">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.store.weedorganic"
+                target="_blank"
+                title="Weed Organic at Google"
+              >
                 <img
                   src="https://www.prima.co/images/app-badge_google@2x.png"
                   alt=""
